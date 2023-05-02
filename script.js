@@ -1,7 +1,21 @@
-function myFunction() {
-    document.getElementById("demo1").innerHTML = "Hello World!";
-    document.getElementById("demo2").innerHTML = "How are you?";
-}
+let lastname, lastName, LastName;
+lastName = "Mahi";
+lastname = "Hasibul";
+LastName = lastname + lastName;
+
+document.getElementById("demo1").innerHTML = LastName;
+
+let x, y;
+x = 5 + 5;
+y = x * 100;
+document.getElementById("demo").innerHTML = y;
+// var x;
+// x = 5;
+// document.getElementById("demo").innerHTML = x * 10;
+// function myFunction() {
+//     document.getElementById("demo1").innerHTML = "Hello World!";
+//     document.getElementById("demo2").innerHTML = "How are you?";
+// }
 // let a, b, c;
 // a = 5;
 // b = 6;
