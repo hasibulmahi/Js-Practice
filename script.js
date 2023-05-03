@@ -1,14 +1,20 @@
-let lastname, lastName, LastName;
-lastName = "Mahi";
-lastname = "Hasibul";
-LastName = lastname + lastName;
+const price1 = 5;
+const price2 = 5;
+const price3 = 5;
+let total = price1 + price2 + price3;
+document.getElementById("demo").innerHTML = "The total is: " + total;
 
-document.getElementById("demo1").innerHTML = LastName;
+// let lastname, lastName, LastName;
+// lastName = "Mahi";
+// lastname = "Hasibul";
+// LastName = lastname + lastName;
 
-let x, y;
-x = 5 + 5;
-y = x * 100;
-document.getElementById("demo").innerHTML = y;
+// document.getElementById("demo1").innerHTML = LastName;
+
+// let x, y;
+// x = 5 + 5;
+// y = x * 100;
+// document.getElementById("demo").innerHTML = y;
 // var x;
 // x = 5;
 // document.getElementById("demo").innerHTML = x * 10;
