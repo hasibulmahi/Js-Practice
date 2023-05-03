@@ -1,8 +1,17 @@
-const price1 = 5;
-const price2 = 5;
-const price3 = 5;
-let total = price1 + price2 + price3;
-document.getElementById("demo").innerHTML = "The total is: " + total;
+let $$$ = 2;
+let $myMoney = 5;
+document.getElementById("demo").innerHTML = $$$ + $myMoney;
+// let x = 2 + 3 + "5";
+// document.getElementById("demo").innerHTML = x;
+// const pi = 3.1416;
+// let person = "Hasibul Mahi";
+// let answer = "Yes, I am!";
+// document.getElementById("demo").innerHTML = pi + "<br>" + person + "<br>" + answer;
+// const price1 = 5;
+// const price2 = 5;
+// const price3 = 5;
+// let total = price1 + price2 + price3;
+// document.getElementById("demo").innerHTML = "The total is: " + total;
 
 // let lastname, lastName, LastName;
 // lastName = "Mahi";
