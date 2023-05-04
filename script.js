@@ -1,6 +1,32 @@
-let $$$ = 2;
-let $myMoney = 5;
-document.getElementById("demo").innerHTML = $$$ + $myMoney;
+try {
+    carName = "Suv";
+    let carName = "Volvo";
+} catch (err) {
+    document.getElementById("demo").innerHTML = err;
+}
+// carName = "Volvo";
+// document.getElementById("demo").innerHTML = carName;
+// var carName; 
+
+// let x = 2; // allowed 
+// {
+//     let x = 3; //allowed
+// } 
+//{
+//     let x = 4;
+// }
+// let x = 10;
+// // here x is 10 
+// {
+//     let x = 2;
+//     // here x is 2
+// }
+// //here x is 10
+// document.getElementById("demo").innerHTML = x;
+
+// let $$$ = 2;
+// let $myMoney = 5;
+// document.getElementById("demo").innerHTML = $$$ + $myMoney;
 // let x = 2 + 3 + "5";
 // document.getElementById("demo").innerHTML = x;
 // const pi = 3.1416;
