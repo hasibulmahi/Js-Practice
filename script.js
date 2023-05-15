@@ -5,15 +5,15 @@ try {
 catch (err) {
     document.getElementById("demo").innerHTML = err;
 }
-// try {
-//     carName = "Suv";
-//     let carName = "Volvo";
-// } catch (err) {
-//     document.getElementById("demo").innerHTML = err;
-// }
-// carName = "Volvo";
-// document.getElementById("demo").innerHTML = carName;
-// var carName; 
+try {
+    carName = "Suv";
+    let carName = "Volvo";
+} catch (err) {
+    document.getElementById("demo").innerHTML = err;
+}
+carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+var carName; 
 
 // let x = 2; // allowed 
 // {
