@@ -1,19 +1,26 @@
-try {
-    const PI = 3.141592653589793;
-    PI= 3.14;
-}
-catch (err) {
-    document.getElementById("demo").innerHTML = err;
-}
-try {
-    carName = "Suv";
-    let carName = "Volvo";
-} catch (err) {
-    document.getElementById("demo").innerHTML = err;
-}
-carName = "Volvo";
-document.getElementById("demo").innerHTML = carName;
-var carName; 
+//create an array
+const cars = ["Saab", "Volvo", "BMW"];
+//change an element
+cars[0] = "Toyota";
+//add an element
+cars.push("Audi");
+//display the array
+document.getElementById("demo").innerHTML = cars;
+// try {
+//     const PI = 3.141592653589793;
+//     PI = 3.14;
+// } catch (err) {
+//     document.getElementById("demo").innerHTML = err;
+// }
+// try {
+//     carName = "Suv";
+//     let carName = "Volvo";
+// } catch (err) {
+//     document.getElementById("demo").innerHTML = err;
+// }
+// carName = "Volvo";
+// document.getElementById("demo").innerHTML = carName;
+// var carName; 
 
 // let x = 2; // allowed 
 // {
