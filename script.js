@@ -1,11 +1,16 @@
-//create an array
-const cars = ["Saab", "Volvo", "BMW"];
-//change an element
-cars[0] = "Toyota";
-//add an element
-cars.push("Audi");
-//display the array
-document.getElementById("demo").innerHTML = cars;
+try {
+    const cars = ["Saab", "Volvo", "BMW"];
+    cars = ["Toyota", "Volvo", "Audi"];
+} catch (err) {
+    document.getElementById("demo").innerHTML = err;
+} // //create an array
+// const cars = ["Saab", "Volvo", "BMW"];
+// //change an element
+// cars[0] = "Toyota";
+// //add an element
+// cars.push("Audi");
+// //display the array
+// document.getElementById("demo").innerHTML = cars;
 // try {
 //     const PI = 3.141592653589793;
 //     PI = 3.14;
