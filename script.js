@@ -1,9 +1,19 @@
-try {
-    const cars = ["Saab", "Volvo", "BMW"];
-    cars = ["Toyota", "Volvo", "Audi"];
-} catch (err) {
-    document.getElementById("demo").innerHTML = err;
-} // //create an array
+// create an object:
+const car = { type: "Fiat", model: "500", color: "white" };
+// change a property 
+car.color = "red";
+//add an property:
+car.owner = "Mahi";
+//display the property
+document.getElementById("demo").innerHTML = "Car color is " + car.color;
+// try {
+//     const cars = ["Saab", "Volvo", "BMW"];
+//     cars = ["Toyota", "Volvo", "Audi"];
+// } 
+// catch (err) {
+//     document.getElementById("demo").innerHTML = err;
+// }
+// //create an array
 // const cars = ["Saab", "Volvo", "BMW"];
 // //change an element
 // cars[0] = "Toyota";
