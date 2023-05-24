@@ -1,11 +1,13 @@
-// create an object:
-const car = { type: "Fiat", model: "500", color: "white" };
-// change a property 
-car.color = "red";
-//add an property:
-car.owner = "Mahi";
-//display the property
-document.getElementById("demo").innerHTML = "Car color is " + car.color;
+let x = 10;
+document.getElementById("demo").innerHTML = x;
+// // create an object:
+// const car = { type: "Fiat", model: "500", color: "white" };
+// // change a property 
+// car.color = "red";
+// //add an property:
+// car.owner = "Mahi";
+// //display the property
+// document.getElementById("demo").innerHTML = "Car color is " + car.color;
 // try {
 //     const cars = ["Saab", "Volvo", "BMW"];
 //     cars = ["Toyota", "Volvo", "Audi"];
