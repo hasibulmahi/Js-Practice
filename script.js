@@ -1,9 +1,9 @@
 // Assign the value 5 to x
-let x = 5;
+let x = 10;
 // Assign the value 2 to y
-let y = 2;
+let y = 5;
 // Assign the value x + y to z
-let z = x + y;
+let z = x * y;
 //Display z
 document.getElementById("demo").innerHTML = "The Sum of x + y is: " + z;
 // let x = 10;
