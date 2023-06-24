@@ -1,6 +1,10 @@
-var x = 10;
-x += 5; // x = x+5;
-document.getElementById("demo").innerHTML = x;
+let text1 = "A";
+let text2 = "B"
+let result = text1 < text2;
+document.getElementById("demo").innerHTML = "Is A less than B? " + result;
+// var x = 10;
+// x += 5; // x = x+5;
+// document.getElementById("demo").innerHTML = x;
 
 // let a = 3;
 // let x = (100 + 50) * a;
