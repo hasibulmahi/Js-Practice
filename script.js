@@ -1,7 +1,10 @@
-let x = 5 + 5;
-let y = "5" + 5;
-let z = "Hello" + 5;
-document.getElementById("demo").innerHTML = x + "<br>" + y + "<br>" + z;
+let y = 50;
+let x = 10 + y;
+document.getElementById("demo").innerHTML = "The result of X is = " + x;
+// let x = 5 + 5;
+// let y = "5" + 5;
+// let z = "Hello" + 5;
+// document.getElementById("demo").innerHTML = x + "<br>" + y + "<br>" + z;
 // let text1 = "Hasibul";
 // let text2 = "Mahi";
 // let text3 = text1 + " " + text2;
